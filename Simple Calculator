@@ -1,0 +1,23 @@
+def j(num1,num2):
+    print(num1 ,'+',num2 ,'=',num1+num2)
+def m(num1,num2):
+    print(num1,'-',num2,'=',num1-num2)
+def z(num1,num2):
+    print(num1,'*',num2,'=',num1*num2)
+def t(num1,num2):
+    print(num1,'/',num2,'=',num1/num2)
+
+num1= float(input('num 1 : '))
+num2= float(input('num 2 : '))
+c=input('car(+,-,/,*) : ')
+
+if c=='+':
+    j(num1,num2)
+elif c=='-':
+    m(num1,num2)
+elif c=='/':
+    t(num1,num2)
+elif c=='*':
+    z(num1,num2)
+else:
+    print('error!')
